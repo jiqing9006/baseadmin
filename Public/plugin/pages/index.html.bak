@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="pagination.css" media="all" />
+	</head>
+	<body>
+<div >
+							
+<p>Digg
+<div class="digg"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p><a href="http://www.yahoo.com" rel="nofollow">Yahoo</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=yahoo">Download CSS</a>)
+<div class="yahoo"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p><a href="http://www.yahoo.com" rel="nofollow">New Yahoo!</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=yahoo2">Download CSS</a>)
+<div class="yahoo2"><span class="disabled">&lt; Prev</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &gt;</a></div>
+</p>
+
+<p><a href="http://www.meneame.net" rel="nofollow">Meneame</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=meneame">Download CSS</a>) (<a href="http://www.mis-algoritmos.com/wp-content/uploads/meneame.jpg" title="Meneame Background">Download background</a>)
+<div class="meneame"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p><a href="http://www.flickr.com" rel="nofollow">Flickr</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=flickr">Download CSS</a>)
+<div class="flickr"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p><a href="http://sabros.us" rel="nofollow">Sabros.us</a> Style (<a href="http://www.mis-algoritmos.com/sabrosus" title="sabros.us">Mi sabros.us</a>) (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=sabrosus">Download CSS</a>)
+<div class="sabrosus"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p>Green Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=scott">Download CSS</a>)
+<div class="scott"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p>Gray Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=quotes">Download CSS</a>)
+<div class="quotes"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p>Black Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=black">Download CSS</a>) (<a href="http://www.mis-algoritmos.com/wp-content/uploads/bar.gif" title="Meneame Background">Download background 1</a>, <a href="http://www.mis-algoritmos.com/wp-content/uploads/invbar.gif" title="Meneame Background">Download background 2</a>)
+<div class="black"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p><a href="http://www.mis-algoritmos.com">Mis Algoritmos</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=black2">Download CSS</a>)
+<div class="black2"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p>Black-Red Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=black-red">Download CSS</a>)
+<div style="padding-top:10px;padding-bottom:10px;background-color:#313131;">
+<div class="black-red"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</div></p>
+
+<p>Gray Style 2 (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=grayr">Download CSS</a>)
+<div class="grayr"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p>Yellow Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=grayr">Download CSS</a>)
+<div class="yellow"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p><a href="http://jogger.pl/" rel="nofollow">Jogger</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=jogger">Download CSS</a>)
+<div class="jogger"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p><a href="http://eu.starcraft2.com/screenshots.xml" rel="nofollow">starcraft 2</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=stacraft2">Download CSS</a>)
+<div class="starcraft2"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p>Tres Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=tres">Download CSS</a>)
+<div class="tres"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p><a href="http://www.512megas.com" rel="nofollow">512megas</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=megas512">Download CSS</a>)
+<div class="megas512"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p><a href="http://www.technorati.com/" rel="nofollow">Technorati</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=technorati">Download CSS</a>)
+<div class="technorati"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p><a href="http://www.youtube.com/" rel="nofollow">YouTube</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=youtube">Download CSS</a>)
+<div class="youtube"><span class="disabled">Prev</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next</a></div>
+</p>
+
+<p><a href="http://search.msdn.microsoft.com/" rel="nofollow">MSDN Search</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=msdn">Download CSS</a>)
+<div class="msdn"><span class="disabled">&#9668; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#9658;</a></div>
+</p>
+
+<p><a href="http://badoo.com/" rel="nofollow">Badoo</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=badoo">Download CSS</a>)
+<div class="badoo"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p>Blue Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=manu">Download CSS</a>)
+<div class="manu"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p>Green-Black Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=green-black">Download CSS</a> + <a href="http://www.mis-algoritmos.com/wp-content/uploads/image1.gif">image1</a> + <a href="http://www.mis-algoritmos.com/wp-content/uploads/image2.gif">image2</a>)
+<div class="green-black"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+
+<p><a href="http://viciao2k3.net/blog" rel="nofollow">viciao2k3.net/blog</a> Style (<a href="http://www.mis-algoritmos.com/wp-content/uploads/pagstyle.php?q=viciao">Download CSS</a>)
+<div class="viciao"><span class="disabled">&#171; Previous</span><span class="current">1</span><a href="?page=2">2</a><a href="?page=3">3</a><a href="?page=4">4</a><a href="?page=5">5</a><a href="?page=6">6</a><a href="?page=7">7</a>...<a href="?page=199">199</a><a href="?page=200">200</a><a href="?page=2" class="next">Next &#187;</a></div>
+</p>
+</div>
+	</body>
+</html>

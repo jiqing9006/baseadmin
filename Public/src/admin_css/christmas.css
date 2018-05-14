@@ -1,0 +1,73 @@
+/*
+	圣诞后台css样式文件
+	类名,id名请保证不一样!
+*/
+
+.yh-timer,.yh-both{
+	float: left;
+	margin-left: 5px;
+	font-size: 16px;
+}
+.yh-timer-hidden,.yh-both-hidden{
+	display: none;
+}
+.yh-timer input,.yh-both input{
+	height: 30px;
+	width: 90px;	
+}
+.clearboth{
+	clear: both;
+}
+#select_time{
+	width: 330px;
+}
+
+.checkbox-both{
+	border: 1px solid;
+	width: 65px;
+	height: 132px;
+	text-align: center;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+	line-height: 132px;
+	cursor: pointer;
+}
+.rubbish-box{
+	border: 1px solid;
+	width: 120px;
+	height:132px;
+	text-align: center;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;	
+}
+.rubbish-box .rubbish-box-name{
+	border-bottom: 1px solid;
+	height: 60px;
+	padding-top: 5px;
+}
+.rubbish-box .rubbish-box-nums{
+	height: 50px;
+}
+.rubbish-box .rubbish-box-nums .rubbish-box-nums-top{
+	height: 22px;
+	border-bottom: 1px solid;
+}
+.rubbish-box .rubbish-box-nums .rubbish-box-nums-bottom{
+	font-size: 12px;
+}
+.rubbish-box .rubbish-box-nums .rubbish-box-nums-bottom .rubbish-box-nums-bottom-left{
+	float: left;
+	width:60px;
+	border-right: 1px solid;
+}
+.rubbish-box .rubbish-box-nums .rubbish-box-nums-bottom .rubbish-box-nums-bottom-right{
+	float: left;
+	text-align: center;
+	width:59px;
+}
+.rubbish-zhanshi{
+	line-height: 100px;
+	cursor: pointer;
+}

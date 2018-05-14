@@ -1,0 +1,150 @@
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="javascript:;">{$admin_name}电商 运营管理后台</a>
+            <ul class="nav navbar-right top-nav erbi-menu-nav" style="height: 50px;">
+                <volist name="c_action_result" id="as">
+                    <li class="erbi-menu-nav-li <?php if($as['is_chose']) echo 'active'?>">
+                        <a href="__APP__{$as['urls']}" <?php if($as['is_chose']) echo 'style="color:#FFF"'?>">
+                            {$as.name}
+                        </a>
+                    </li>
+                </volist>
+
+
+                <!--<li class="erbi-menu-nav-li active">-->
+                    <!--用户系统-->
+                <!--</li>-->
+
+                <!--<li class="erbi-menu-nav-li">-->
+                    <!--商品系统-->
+                <!--</li>-->
+
+                <!--<li class="erbi-menu-nav-li">-->
+                    <!--订单系统-->
+                <!--</li>-->
+
+                <!--<li class="erbi-menu-nav-li">-->
+                    <!--促销系统-->
+                <!--</li>-->
+
+                <!--<li class="erbi-menu-nav-li">-->
+                    <!--网站设置-->
+                <!--</li>-->
+
+                <!--<li class="erbi-menu-nav-li">-->
+                    <!--权限设置-->
+                <!--</li>-->
+            </ul>
+        </div>
+        <!-- Top Menu Items -->
+        <ul class="nav navbar-right top-nav">
+           
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> {$Think.session._admin_nick_name} <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="__APP__/Public/logout"><i class="fa fa-fw fa-power-off"></i>退出</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+       
+        
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav side-nav" id="slideNav">
+                <?php
+                    for($k=0;$k<count($c_left_menu);$k++){
+                        if($c_left_menu[$k]['is_chose']==1){
+                ?>
+                <li class="active">
+                <?php
+                        }else{
+                ?>
+                <li>
+                <?php
+                        }
+                ?>
+                    <?php
+                        if($c_left_menu[$k]['t_menu']){
+                            if($c_left_menu[$k]['is_chose']==0){
+                    ?>
+                <a href="javascript:;" data-toggle="collapse" data-target="#demo_{$c_left_menu[$k]['id']}" class="collapsed" aria-expanded="true">
+                    <i class="fa fa-fw fa-arrows-v"></i> <?php echo $c_left_menu[$k]['name']?>
+                    <i class="fa fa-fw fa-caret-down"></i>
+                </a>
+
+                <ul id="demo_{$c_left_menu[$k]['id']}" class="collapse" aria-expanded="false">
+                        <?php
+                            for($h=0;$h<count($c_left_menu[$k]['t_menu']);$h++){
+
+                                if($c_left_menu[$k]['t_menu'][$h]['is_chose']==1){
+                        ?>
+                    <li>
+                        <a href="__APP__{$c_left_menu[$k]['t_menu'][$h]['urls']}" style="background-color: #000 !important;">{$c_left_menu[$k]['t_menu'][$h]['name']}</a>
+                    </li>
+                        <?php
+                                }else{
+                        ?>
+                    <li>
+                        <a href="__APP__{$c_left_menu[$k]['t_menu'][$h]['urls']}">{$c_left_menu[$k]['t_menu'][$h]['name']}</a>
+                    </li>
+                    <?php
+                                }
+                            }
+                        ?>
+                </ul>
+                    <?php
+                            }else{
+                    ?>
+                <a href="javascript:;" data-toggle="collapse" data-target="#demo_{$c_left_menu[$k]['id']}" class="" aria-expanded="false">
+                    <i class="fa fa-fw fa-arrows-v"></i> <?php echo $c_left_menu[$k]['name']?>
+                    <i class="fa fa-fw fa-caret-down"></i>
+                </a>
+
+                <ul id="demo_{$c_left_menu[$k]['id']}" class="" aria-expanded="false">
+                    <?php
+                            for($h=0;$h<count($c_left_menu[$k]['t_menu']);$h++){
+                                if($c_left_menu[$k]['t_menu'][$h]['is_chose']==1){
+                    ?>
+                    <li>
+                        <a href="__APP__{$c_left_menu[$k]['t_menu'][$h]['urls']}" style="background-color: #000 !important;">{$c_left_menu[$k]['t_menu'][$h]['name']}</a>
+                    </li>
+                    <?php
+                                }else{
+                        ?>
+                    <li>
+                        <a href="__APP__{$c_left_menu[$k]['t_menu'][$h]['urls']}">{$c_left_menu[$k]['t_menu'][$h]['name']}</a>
+                    </li>
+                    <?php
+                                }
+                            }
+                        ?>
+                </ul>
+                    <?php
+                            }
+                    ?>
+
+                    <?php
+                        }else{
+                    ?>
+                    <a href="__APP__{$c_left_menu[$k]['urls']}"><i class="fa fa-fw fa-dashboard"></i> <?php echo $c_left_menu[$k]['name']?></a>
+                <?php
+                        }
+                    ?>
+                    </li>
+                <?php
+                    }
+                ?>
+            </ul>
+        </div>
+        
+        <!-- /.navbar-collapse -->
+    </nav>

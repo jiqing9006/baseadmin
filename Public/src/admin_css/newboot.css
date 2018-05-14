@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+.nolabel{display:inline;}
+.nofieldset{ margin-top:-5px;}
+.nobtn-primary{margin:0;}
+.uploadimg{ margin-top:0px;}
+.delate_p{
+	background: url(../../images/app_closed.png) no-repeat left center;
+	padding-left: 15px;
+	color: #666;
+	float: left;
+	width: 60px;
+	height: 11px;
+	display: inline-block;
+}

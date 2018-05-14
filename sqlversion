@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/local/php/bin/php -f ./sql_version/sqlversion.php

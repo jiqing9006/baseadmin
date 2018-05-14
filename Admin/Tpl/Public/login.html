@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/src/myreset.css">
+    <link rel="stylesheet" href="/boot/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/boot/css/login.css?ver=21398172498128937dwkjfh9123">
+    <style>
+    </style>
+    <title>{$admin_name}电商-登录页面</title>
+</head>
+
+<body class="caomall_body">
+    <div class="login_box">
+        <div class="logo_top">
+            <img src="/boot/images/login/{$admin_logo}.png" alt="">
+        </div>
+        <div class="login_main">
+            <p class="title">{$admin_name}电商管理系统</p>
+            <div class="controls">
+                <p class="p_name">用户名</p>
+                <p class="p_input"><input type="text" id="nickname" placeholder="请输入用户名" value="" name="username" /></p>
+            </div>
+            <div class="controls">
+                <p class="p_name">密码</p>
+                <p class="p_input"><input type="password" id="password" placeholder="请输入密码" name="password" /></p>
+            </div>
+            <div class="btns" id="yo_login_btn">
+                登录
+            </div>
+        </div>
+
+    </div>
+    <!--<div class="login_box">-->
+        <!--<form class="login-form" action="/">-->
+            <!--<a class="icon_area" href="javascript:;">-->
+                <!--<div class="logo_icon"></div>-->
+                <!--<div class="logo_text">-->
+                    <!---->
+                <!--</div>-->
+            <!--</a>-->
+
+            <!--<div class="form_body">-->
+                <!--<div class="input_panel">-->
+                    <!--<div class="controls">-->
+                        <!--<span class="fa fa-user"></span>-->
+                        <!--<input type="text" id="nickname" placeholder="请输入用户名" value="" name="username" />-->
+                    <!--</div>-->
+
+                    <!--<div class="controls">-->
+                        <!--<span class="fa fa-key"></span>-->
+                        <!--<input type="password" id="password" placeholder="请输入密码" name="password" />-->
+                    <!--</div>-->
+
+                <!--</div>-->
+
+                <!--<div class="controls" style="width: 308px;height: 38px;margin: 0;margin-left: 45px;margin-top: 25px;float: left;">-->
+                    <!--<button type="button" id="yo_login_btn" class="login_btn">登 录</button>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</form>-->
+    <!--</div>-->
+    <script type="text/javascript"  src="/src/jquery-1.9.1.min.js" ></script>
+    <script>
+        document.onkeydown = function (e) {
+            var ev = document.all ? window.event : e;
+            if(ev.keyCode==13) {
+                func();
+            }
+        }
+        function func() {
+
+                var nickname = $("#nickname").val();
+                var password = $("#password").val()
+                $.ajax({
+                    type:"POST",
+                    url:"__URL__/checklogin/",
+                    dataType:"json",
+                    data:{nickname:nickname,password:password},
+                    success:function(data){
+                        //判断输入是否成功，成功则跳转
+                        if(data.errno==10000) {
+                            window.location.href = '/admin.php/Index/index';
+                        } else {
+                            alert('login fail');
+                            return false;
+                        }
+                    }
+                });
+        }
+        $("#yo_login_btn").on('click',func);
+    </script>
+    </body>
+</html>

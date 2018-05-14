@@ -1,0 +1,199 @@
+
+.yo_login_body{
+    background: url(../images/login/yo_login_bg.jpg) no-repeat center top;
+}
+.yo_login_body .login_box {
+  width: 400px;
+  margin: 100px auto;
+  color: #666;
+  padding: 30px 100px;
+}
+.yo_login_body .login_box .icon_area {
+  color: #fff;
+  font-size: 15px;
+}
+.yo_login_body .logo_icon {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  background: url(../images/login/yo_logo_icon.jpg) center no-repeat;
+    background-size: contain;
+}
+.yo_login_body .logo_text {
+  height: 30px;
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.yo_login_body .login_box .form_body {
+  margin-top: 30px;
+}
+.yo_login_body .login_box .form_body .controls {
+  margin: 20px auto 0;
+  display: block;
+  width: 308px;
+  position: relative;
+  color: #fff;
+}
+.yo_login_body .login_box .form_body .controls input {
+  width: 262px;
+  border: 1px solid #cccccc;
+  display: inline-block;
+  padding: 8px 8px 8px 35px ;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555555;
+  vertical-align: middle;
+  background: #fff;
+}
+.yo_login_body .controls .fa {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  color: #aaa;
+}
+.yo_login_body .login_btn {
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background: #1fce02;
+  border: none;
+  padding: 10px 0;
+}
+
+
+.yo_login_body .register_btn{
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background: #CE6002;
+  border: none;
+  padding: 10px 0;
+}
+
+
+.yo_login_body .register_box {
+  width: 600px;
+  margin: 50px auto;
+  color: #666;
+  padding: 30px 100px;
+}
+
+
+.yo_register_body .controls .fa{
+  height: 35px;
+  width: 150px;
+  text-align: right;
+  line-height: 35px;
+  position: absolute;
+  left: -170px;
+  font-size: 16px;
+  color: #fff5d4;
+  top: 0px;
+}
+
+.yo_register_body .login_box .form_body .controls input{
+  padding: 8px 8px 8px 10px;
+}
+
+.yo_register_body .login_box .form_body .controls{
+  margin: 20px auto 0;
+  display: block;
+  width: 200px;
+  position: relative;
+  color: #fff;
+}
+
+.get_valicode_btn{
+  width: 100px !important;
+  height: 35px;
+  position: relative;
+  top: -3px;
+  font-size: 14px !important;
+}
+
+
+body,html{
+  height: 100%;
+}
+.caomall_body{
+  background: url(../images/login/caomall_login.png) no-repeat center top;
+  background-size: cover;
+}
+
+.caomall_body .login_box{
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  top:100px;
+}
+
+.caomall_body .login_box .logo_top{
+  width:100px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.caomall_body .login_box .logo_top img{
+  width: 100%;
+}
+
+.caomall_body .login_box .login_main{
+    width: 300px;
+    height: 360px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+.caomall_body .login_box .login_main .title{
+    font-size:20px;
+    text-align: center;
+    height: 75px;
+    line-height:75px;
+}
+.controls{
+  font-size: 14px;
+  width: 250px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.controls .p_name{
+  height: 25px;
+  line-height:25px;
+}
+
+.controls .p_input input{
+
+  border-radius: 5px;
+  -webkit-appearance:none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding : 0;
+  padding: 8px 8px 8px 10px;
+  width: 220px;
+  border:1px solid #d5d5d5;
+}
+
+.btns{
+  width: 250px;
+  height: 40px;
+  margin: 0 auto;
+  color: #FFF;
+  background-color: #000000;
+  border-radius: 10px;
+  text-align: center;
+  line-height:40px;
+  margin-top: 35px;
+}

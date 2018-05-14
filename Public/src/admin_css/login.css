@@ -1,0 +1,12 @@
+.item .alert{
+    position: absolute;
+    left: initial;
+}
+.item1 .alert{
+    right: -130px;
+    top: 54px;
+}
+.item2 .alert{
+    right: -117px;
+    top: 108px;
+}

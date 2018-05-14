@@ -1,0 +1,5 @@
+//错误返回
+{"errno":10001,"errdesc":"\u83b7\u53d6banner\u5931\u8d25","timestamp":1504526497}
+
+//成功返回
+{"errno":0,"errdesc":"","timestamp":1504526536,"imageUrl":[{"link":"\/page\/index\/","url":"http:\/\/store.caomall.net\/site_upload\/banner_img\/20170904\/1504526531_2010589265.png"}]}

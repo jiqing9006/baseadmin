@@ -1,0 +1,21 @@
+<div class="pagination" id="pages" style="float:right;">
+    <ul>
+        <li><a href="__ACTION__?page=1{$allPage['prefix_page']}{$allPage.tail}">首页</a></li>
+        <li><a href="__ACTION__?page={$allPage['prev_page']}{$allPage['prefix_page']}{$allPage.tail}">上一页</a></li>
+        <php> for ($i = $allPage['page_start']; $i <= $allPage['page_end']; $i++) {
+            if ($i == $allPage['page']) { </php>
+        <li class="active"> <a href="__ACTION__?page=<php>echo $i;</php>{$allPage['prefix_page']}{$allPage.tail}">
+            <php> echo $i; </php>
+        </a> </li>
+        <php> } else { </php>
+        <li><a href="__ACTION__?page=<php>echo $i;</php>{$allPage['prefix_page']}{$allPage.tail}">
+            <php> echo $i; </php>
+        </a></li>
+        <?php
+                 }
+          }
+    ?>
+        <li><a href="__ACTION__?page={$allPage['next_page']}{$allPage['prefix_page']}{$allPage.tail}">下一页</a></li>
+        <li><a href="__ACTION__?page={$allPage['page_all']}{$allPage['prefix_page']}{$allPage.tail}">尾页</a></li>
+    </ul>
+</div>

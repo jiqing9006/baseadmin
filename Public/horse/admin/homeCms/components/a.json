@@ -1,0 +1,242 @@
+[
+  {
+    "name": "mallinfo",
+    "data": {
+      "list": [
+        {
+          "image": "http://cdn.caomall.net/1498287783237796105.png",
+          "word": "",
+          "name": "1232"
+        },
+        {
+          "image": "http://cdn.caomall.net/1498287828593675109.png",
+          "word": "",
+          "name": "3333"
+        },
+        {
+          "image": "http://cdn.caomall.net/14982878551473365562.png",
+          "word": "",
+          "name": "1231"
+        }
+      ]
+    }
+  },
+  {
+    "name": "icon",
+    "data": {
+      "list": [
+        {
+          "image": "http://cdn.caomall.net/1498288641640303634.png",
+          "name": "123",
+          "link": "123",
+          "wx_link": "321"
+        },
+        {
+          "image": "http://cdn.caomall.net/149828864934294540.png",
+          "name": "321",
+          "link": "321",
+          "wx_link": "321"
+        }
+      ]
+    }
+  },
+  {
+    "name": "pinpaiqiang",
+    "data": {
+      "icon": "http://cdn.caomall.net/14982887771180140090.png",
+      "name": "222222",
+      "sec_name": "333333",
+      "list": [
+        {
+          "image": "http://cdn.caomall.net/14982888311036527717.png",
+          "link": "123",
+          "wx_link": "321"
+        },
+        {
+          "image": "http://cdn.caomall.net/14982888391907466199.png",
+          "link": "456",
+          "wx_link": "654"
+        }
+      ]
+    }
+  },
+  {
+    "name": "hengxiangad",
+    "data": {
+      "list": [
+        {
+          "image": "http://cdn.caomall.net/14982402101940522023.png",
+          "link": "222",
+          "wx_link": "333",
+          "start_time": 1497632400,
+          "end_time": 1500415199,
+          "is_range": 1
+        },
+        {
+          "image": "http://cdn.caomall.net/14982889811747737977.png",
+          "link": "123",
+          "wx_link": "321",
+          "start_time": 1498201200,
+          "end_time": 1500969599,
+          "is_range": 1
+        }
+      ],
+      "name": "111",
+      "sec_name": "222",
+      "icon": "http://cdn.caomall.net/149824020597190305.png"
+    }
+  },
+  {
+    "name": "dantiaoad",
+    "data": {
+      "start_time": 1500364799,
+      "end_time": 1500623999,
+      "is_range": 1,
+      "image": "http://cdn.caomall.net/14982895971159652350.png",
+      "link": "123123",
+      "wx_link": "32123"
+    }
+  },
+  {
+    "name": "sigead",
+    "data": {
+      "s1": {
+        "image": "http://cdn.caomall.net/1498290293189599455.png",
+        "link": "12",
+        "wx_link": "21",
+        "is_range": 1,
+        "start_time": 1498287600,
+        "end_time": 1498291199
+      },
+      "s2": {
+        "image": "http://cdn.caomall.net/14982903001423333005.png",
+        "link": "33",
+        "wx_link": "22",
+        "is_range": 1,
+        "start_time": 1498287600,
+        "end_time": 1498291199
+      },
+      "s3": {
+        "image": "http://cdn.caomall.net/14982903071996723819.png",
+        "link": "33",
+        "wx_link": "33",
+        "is_range": 1,
+        "start_time": 1498287600,
+        "end_time": 1498291199
+      },
+      "s4": {
+        "image": "http://cdn.caomall.net/149829031210852384.png",
+        "link": "11",
+        "wx_link": "11",
+        "is_range": 1,
+        "start_time": 1498287600,
+        "end_time": 1498291199
+      }
+    }
+  },
+  {
+    "name": "picspecial",
+    "data": {
+      "name": "请问",
+      "sec_name": "额外",
+      "list": [
+        {
+          "image": "http://cdn.caomall.net/14982907231784752907.png",
+          "link": "123",
+          "wx_link": "333",
+          "start_time": 1497596400,
+          "end_time": 1500364799,
+          "is_range": 1
+        },
+        {
+          "image": "http://cdn.caomall.net/14982907291159136101.png",
+          "link": "333",
+          "wx_link": "333",
+          "start_time": 1498287600,
+          "end_time": 1498291199,
+          "is_range": 1
+        }
+      ]
+    }
+  },
+  {
+    "name": "newsspecial",
+    "data": {
+      "name": "12312",
+      "sec_name": "123123",
+      "list": [
+        {
+          "image": "http://cdn.caomall.net/14982909831673794388.png",
+          "link": "123",
+          "wx_link": "123",
+          "name": "123",
+          "sec_name": "123",
+          "start_time": 1498287600,
+          "end_time": 1498291199,
+          "is_range": 1
+        },
+        {
+          "image": "http://cdn.caomall.net/1498290991816395648.png",
+          "link": "33",
+          "wx_link": "33",
+          "name": "333",
+          "sec_name": "33",
+          "start_time": 1498287600,
+          "end_time": 1498291199,
+          "is_range": 1
+        }
+      ],
+      "icon": "http://cdn.caomall.net/14982910071444426100.png"
+    }
+  },
+  {
+    "name": "goodspecial",
+    "data": {
+      "list": [
+        {
+          "image": "http://cdn.caomall.net/14982924901150217934.png",
+          "goods": [
+            {
+              "id": "2",
+              "name": "现代简约布艺单人沙发 北欧风格小户型 组合组套",
+              "img_list": "http://cdn.caomall.net/14919864711333450868.png",
+              "price": "40000"
+            },
+            {
+              "id": "2",
+              "name": "现代简约布艺单人沙发 北欧风格小户型 组合组套",
+              "img_list": "http://cdn.caomall.net/14919864711333450868.png",
+              "price": "40000"
+            }
+          ],
+          "start_time": 1498291200,
+          "end_time": 1498294799,
+          "is_range": 1
+        },
+        {
+          "image": "http://cdn.caomall.net/14982925061466956780.png",
+          "goods": [
+            {
+              "id": "2",
+              "name": "现代简约布艺单人沙发 北欧风格小户型 组合组套",
+              "img_list": "http://cdn.caomall.net/14919864711333450868.png",
+              "price": "40000"
+            },
+            {
+              "id": "23",
+              "name": "3200",
+              "img_list": "http://cdn.caomall.net/14954342562057927185.jpg",
+              "price": "100"
+            }
+          ],
+          "start_time": 1498291200,
+          "end_time": 1498294799,
+          "is_range": 1
+        }
+      ],
+      "icon": "http://cdn.caomall.net/14982924931446428530.png",
+      "name": "11",
+      "sec_name": "111"
+    }
+  }
+]

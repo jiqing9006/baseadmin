@@ -1,0 +1,99 @@
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin text-overflow($lines:1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $lines;
+  -moz-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  @if $lines == 1 {
+    white-space: nowrap;
+    display: block;
+  } @else {
+    display: -webkit-box;
+  }
+}
+
+@mixin box-shadow($shadow: 0 1px 3px rgba(0,0,0,.25)) {
+  -webkit-box-shadow: $shadow; // iOS <4.3 & Android <4.1
+  box-shadow: $shadow;
+}
+
+@function px2rem($px, $base-font-size: 75px) {
+  @return $px / $base-font-size * 1rem;
+}
+
+@function px2rem-s($px) {
+  @return px2rem($px, 40px);
+}
+
+@function px2rem-l($px) {
+  @return px2rem($px, 70.3125px);
+}
+
+@mixin word-style {
+  line-height: 1.5 !important;
+
+  * {
+    line-height: 1.5 !important;
+  }
+
+  p, span, ul, li, div, strong, h1, h2, h3, h4, h5, h6 {
+    font-weight: normal !important;
+    color: $color_9;
+    font-size: 16px;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+  }
+
+  ul, li, span, strong {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  li {
+    display: block !important;
+    float: none !important;
+    width: auto !important;
+    white-space: normal !important;
+  }
+
+  a {
+    font-weight: normal !important;
+    color: $color_10;
+    * {
+      font-size: 16px;
+      color: $color_10;
+      font-weight: normal;
+    }
+  }
+
+  > p, > div, > ul, > h1, > h2, > h3, > h4, > h5, > h6 {
+    margin: 15px 0;
+    padding: 0 !important;
+
+    p, div, ul, h1, h2, h3, h4, h5, h6 {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
+
+  div, table {
+    width: 100% !important;
+    height: auto !important;
+
+  }
+
+  img {
+    margin: 0;
+    display: block;
+    width: 100% !important;
+    padding: 0;
+    height: auto !important;
+  }
+}

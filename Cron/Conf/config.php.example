@@ -1,0 +1,38 @@
+<?php
+return array(
+    'REDIS_HOST' => '127.0.0.1',
+    'REDIS_PORT' => '6379',
+
+    'DB_TYPE' => 'mysql',
+    'DB_HOST' => 'rm-wz94y9juv07017s60.mysql.rds.aliyuncs.com',
+    'DB_NAME' => 'caomall',
+    'DB_USER' => 'clearbay',
+    'DB_PWD' => 'Ttklb0010',
+    'DB_PORT' => '3306',
+    'DB_PREFIX' => 'tf_',
+
+    'CDN' => [
+        'URI'  => 'http://cdn.caomall.net/',
+    ],
+
+    'PUSH' => [
+        'IOS' => [
+            'APIKEY' => 'jGRvCqfvkmKsC0D7QeS8s96a',
+            'SECRET' => 'I5IUiP4WT99RUGRO0sNGPAFb0fGaHegn',
+        ],
+        'ANDROID' => [
+            'APIKEY' => 'o6SDfmEOUh7EnLKDgLFbNbI4',
+            'SECRET' => 'cbvjL4sfhMafIVW2sLwCjZAdBamIfSNQ',
+        ],
+    ],
+    'wx_key_path' => '/home/wwwroot/default/lion/Public/site_upload/wxpay/',   // 微信公钥 私钥的存放地址
+    'alipay_key_path' => '/tmp/',                                              // 支付宝key的存放地址
+    'XCX' => [                                                                 // 小程序相关
+        'SECRET' => '7206372916b682c344240ec9cc7cfcec',
+        'APPID' => 'wx506b01b6f0536395', 
+        'USERINFO' => 'xcx:userinfo:',
+    ],
+    'WX_KEY' => '0010SqBoyTanTtklb0010XiaoTanShXa',                            // wxkey  建议变动 所有的服务的key 都用一个
+
+ 
+);

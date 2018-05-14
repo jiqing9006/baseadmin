@@ -1,0 +1,78 @@
+$main_color: #c42328;
+
+$color_0: #eeeeee;
+$color_1: #e60012;
+$color_2: #000000;
+$color_3: #959595;
+$color_4: #c9c9c9;
+$color_5: #eeeeee;
+$color_6: #f3f4f5;
+$color_7: #ffffff;
+$color_8: #7ecef4;
+$color_9: #313131;
+$color_10: $main_color;
+$color_11: #e2e2e2;
+$color_12: #fbfbfb;
+$color_13: #a0a0a0;
+$color_14: #dfdfdf;
+$color_15: #595959;
+$color_16: #020202;
+$color_17: #9f9f9f;
+$color_18: #d3d3d3;
+$color_19: #86c610;
+$color_20: #f15b35;
+$color_21: #ffb3a0;
+$color_22: #aaaaaa;
+$color_23: #f1f1f1;
+$color_24: #b5b5b5;
+$color_25: #f7f7f7;
+$color_26: #959595;
+$color_27: #e80013;
+$color_28: #f5f5f5;
+$color_29: #dcdcdc;
+
+$font1: 34px;
+$font2: 32px;
+$font3: 30px;
+$font4: 28px;
+$font5: 26px;
+$font6: 24px;
+$font7: 22px;
+$font8: 20px;
+
+$space1: 30px;
+
+$top_1: 10;
+$top_2: 20;
+$top_3: 30;
+$top_4: 40;
+$top_5: 50;
+$top_6: 60;
+$top_7: 70;
+$top_8: 80;
+$top_9: 90;
+$top_10: 100;
+$top_11: 110;
+$top_12: 120;
+$top_13: 130;
+$top_14: 140;
+
+$top_sky: 999; //普通顶部
+$top_est: 99999; //绝对顶部
+
+$page_min_width: 1024px;
+
+//状态栏样式
+$status_bar_background_color: $color_28;
+$status_bar_slogan_color: $color_9;
+$status_bar_notify_color: $color_10;
+$status_bar_right_color: $color_9;
+$status_bar_right_click_color: $color_10;
+
+//按钮样式
+$btn_commit_bgc: $color_10;
+$btn_commit_hover_bgc: $color_21;
+$btn_commit_active_bgc: $color_7;
+$btn_word_bgc: $color_7;
+$btn_word_hover_bgc: $color_10;
+$btn_word_active_bgc: $color_20;
